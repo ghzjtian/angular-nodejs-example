@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(express.static(process.cwd()+"/my-app/dist/angular-nodejs-example/"));
 
 app.get('/api/users', (req, res) => {
+  
   res.json(users);
 });
 
