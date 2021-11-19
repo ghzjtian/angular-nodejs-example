@@ -6,5 +6,3 @@ services:
     ports:
       - "3080:3080"
     container_name: nodejs-api
-    volumes:
-       - ./src:/usr/src/app/src
